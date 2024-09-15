@@ -1,0 +1,310 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: url('2.jpg') no-repeat center center;
+    background-size: cover; /* Ensure the image covers the entire header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 900px; /* Adjust height as needed to fit your design */
+    background-attachment: fixed; /* Optional: Keeps the background image fixed when scrolling */
+}
+
+nav {
+    position: absolute;
+    top: 20px; /* Adjust if needed */
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: #f8f8f8;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f8f8f8;
+}
+
+main {
+    padding: 20px;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #ff5733;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Highlights Section */
+.highlights-section {
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.highlights-section h2 {
+    font-size: 2.5rem;
+    color: #ff5733;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.highlight img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.highlight h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.highlight p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Restaurant Section */
+.restaurants-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.restaurants-section h2 {
+    font-size: 2.5rem;
+    color: #ff5733;
+    margin-bottom: 30px;
+}
+
+.restaurant-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.restaurant-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.restaurant-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 0;
+}
+
+.restaurant-card p {
+    margin: 10px 0;
+}
+
+
+/* Gallery Section */
+.gallery-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.gallery-section h2 {
+    font-size: 2.5rem;
+    color: #ff5733;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item img, .gallery-item video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for Videos */
+.gallery-item video {
+    width: 100%;
+    max-height: 500px; /* Adjust height as needed */
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #ff5733;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-info, .contact-form {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-info h3, .contact-form h3 {
+    font-size: 1.8rem;
+    color: #ff5733;
+    margin-top: 0;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.contact-info li {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #c70039;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+a {
+    color: #ff5733;
+}
+
+a:hover {
+    color: #c70039;
+    text-decoration: underline;
+}
