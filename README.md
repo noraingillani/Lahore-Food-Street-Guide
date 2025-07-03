@@ -13,19 +13,31 @@ Welcome to the **Lahore Food Street Guide**, an interactive static website showc
 ## 📁 Project Structure
 
 📦 Lahore-Food-Street-Guide/
-├── index.html # Homepage
-├── restaurants.html # Famous restaurants: Haveli, Riwaj, etc.
-├── gallery.html # Photo & video gallery
-├── contact.html # Contact information
-├── styles.css # Custom CSS styling
-├── README.md # This file
-├── biryani.jpg # Dish image
-├── kebabs.jpg # Dish image
-├── sweets.jpg # Dish image
-├── Riwaj.jpg # Restaurant image
-├── Haveli.jpg # Restaurant image
-├── 1.jpg - 8.jpg # Gallery images
-├── Fs1.mp4 - Fs3.mp4 # Food street videos
+├── index.html             # Homepage  
+├── restaurants.html       # Famous restaurants: Haveli, Riwaj, etc.  
+├── gallery.html           # Photo & video gallery  
+├── contact.html           # Contact information  
+├── styles.css             # Custom CSS styling  
+├── README.md              # This file  
+
+├── biryani.jpg            # Dish image  
+├── kebabs.jpg             # Dish image  
+├── sweets.jpg             # Dish image  
+├── Riwaj.jpg              # Restaurant image  
+├── Haveli.jpg             # Restaurant image  
+
+├── 1.jpg  
+├── 2.jpg  
+├── 3.jpg  
+├── 4.jpg  
+├── 5.jpg  
+├── 6.jpg  
+├── 7.jpg  
+├── 8.jpg                  # Gallery images  
+
+├── Fs1.mp4  
+├── Fs2.mp4  
+├── Fs3.mp4                # Food street videos  
 
 
 ---
@@ -35,7 +47,7 @@ Welcome to the **Lahore Food Street Guide**, an interactive static website showc
 - ✅ Visually rich gallery page with images and videos  
 - ✅ Highlights of well-known restaurants in Lahore  
 - ✅ Clean, responsive layout with easy navigation  
-- ✅ Pure HTML & CSS — no frameworks or JavaScript  
+- ✅ Pure HTML & CSS
 
 ---
 
