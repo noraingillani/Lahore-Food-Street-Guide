@@ -11,7 +11,7 @@ Welcome to the **Lahore Food Street Guide**, an interactive static website showc
 ---
 
 ## 📁 Project Structure
-
+'''
 📦 Lahore-Food-Street-Guide/
 ├── index.html             # Homepage  
 ├── restaurants.html       # Famous restaurants: Haveli, Riwaj, etc.  
@@ -39,7 +39,7 @@ Welcome to the **Lahore Food Street Guide**, an interactive static website showc
 ├── Fs2.mp4  
 ├── Fs3.mp4                # Food street videos  
 
-
+'''
 ---
 
 ## ✨ Features
